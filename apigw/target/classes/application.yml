@@ -1,0 +1,32 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: api-gateway
+  main:
+    web-application-type: REACTIVE
+  cloud:
+    gateway:
+      routes:
+        - id: doctor
+          uri: lb://DOCTOR
+          predicates:
+            - Path=/api/doctors/**
+        - id: patient
+          uri: lb://PATIENT
+          predicates:
+            - Path=/api/patients/**
+        - id: appointment
+          uri: lb://APPOINTMENT
+          predicates:
+            - Path=/api/appointments/**
+        - id: timeslot
+          uri: lb://TIMESLOT
+          predicates:
+            - Path=/api/timeslots/**
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true

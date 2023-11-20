@@ -1,0 +1,19 @@
+
+x
+java:S1488$"\Immediately return this expression instead of assigning it to the temporary variable "list".(ÎºÅA8È÷Ï»¾1
+y
+java:S14884"\Immediately return this expression instead of assigning it to the temporary variable "list".(İ¿òí8Ê÷Ï»¾1
+J
+java:S5411H"(Use a primitive boolean expression here.(ğ–ÄÏÿÿÿÿÿ8Ì÷Ï»¾1
+O
+java:S1135 "2Complete the task associated to this TODO comment.(¿ç¸8õ÷Ï»¾1
+o
+java:S6204*"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(†öúš8ø÷Ï»¾1
+O
+java:S11350"2Complete the task associated to this TODO comment.(¿ç¸8ú÷Ï»¾1
+o
+java:S6204:"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(†öúš8ú÷Ï»¾1
+N
+java:S1135@"2Complete the task associated to this TODO comment.(ïÜü|8û÷Ï»¾1
+O
+java:S1135F"2Complete the task associated to this TODO comment.(¿ç¸8ü÷Ï»¾1
